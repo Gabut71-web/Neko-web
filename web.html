@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEKO WEB</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #ff99cc, #ff66b2, #ff3399);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 5rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      background: linear-gradient(90deg, #000, #000, #000);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: fadeZoom 2.5s ease-out, glow 3s infinite alternate;
+      letter-spacing: 2px;
+      margin-bottom: 30px;
+      white-space: nowrap; /* Supaya teks tidak turun ke bawah */
+    }
+
+    .menu {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .btn {
+      font-size: 1.5rem;
+      padding: 12px 40px;
+      border: none;
+      border-radius: 35px;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: none;
+      color: white;
+      background: linear-gradient(90deg, #ff69b4, #ff3399);
+      box-shadow: 0 0 15px rgba(255, 51, 153, 0.7);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 25px rgba(255, 51, 153, 1);
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #ff66b2, 0 0 20px #ff99cc, 0 0 30px #ff3399;
+      }
+      to {
+        text-shadow: 0 0 20px #ff3399, 0 0 30px #ff66b2, 0 0 40px #ff99cc;
+      }
+    }
+
+    @keyframes fadeZoom {
+      0% {
+        opacity: 0;
+        transform: scale(0.7);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>WELCOME TO NEKO WEB</h1>
+  <div class="menu">
+    <a class="btn" href="https://gabut71-web.github.io/Neko-home/" target="_blank">CLICK TO START</a>
+  </div>
+</body>
+</html>
