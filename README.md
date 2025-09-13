@@ -1,6 +1,6 @@
-# 🏠 NEKO HOME
+# 🏠 NEKO web
 
-**NEKO HOME** adalah halaman utama dari project NEKO WEB.  
+**NEKO web** adalah halaman utama dari project NEKO WEB.  
 Berfungsi sebagai pusat navigasi menuju berbagai fitur seperti game dan generator.
 
 ## 🚀 Fitur
@@ -9,9 +9,7 @@ Berfungsi sebagai pusat navigasi menuju berbagai fitur seperti game dan generato
 - Navigasi mudah ke halaman lain.
 
 ## 📂 Menu Utama
-1. 🎮 **Game** → menuju [NEKO GAME Hub](https://gabut71-web.github.io/NEKO-GAME/)  
-2. 🗃 **Manifest.json Generator** → menuju [Manifest Generator](https://gabut71-web.github.io/Manifest-Generator/)  
-
+1. 🎮 **Neko home** → menuju [NEKO HOME](https://gabut71-web.github.io/Neko-home/)  
 ## 🔗 Navigasi
 - Halaman intro: `index.html` (WELCOME TO NEKO WEB + tombol start)  
 - Halaman utama: `home.html`  
